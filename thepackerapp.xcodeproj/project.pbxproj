@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C226E16D2C25171900FEADAC /* thepackerappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E16C2C25171900FEADAC /* thepackerappApp.swift */; };
+		C226E16F2C25171900FEADAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E16E2C25171900FEADAC /* ContentView.swift */; };
+		C226E1712C25171A00FEADAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226E1702C25171A00FEADAC /* Assets.xcassets */; };
+		C226E1752C25171A00FEADAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226E1742C25171A00FEADAC /* Preview Assets.xcassets */; };
+		C226E17F2C25171A00FEADAC /* thepackerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E17E2C25171A00FEADAC /* thepackerappTests.swift */; };
+		C226E1892C25171A00FEADAC /* thepackerappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E1882C25171A00FEADAC /* thepackerappUITests.swift */; };
+		C226E18B2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C226E17B2C25171A00FEADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C226E1612C25171900FEADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C226E1682C25171900FEADAC;
+			remoteInfo = thepackerapp;
+		};
+		C226E1852C25171A00FEADAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C226E1612C25171900FEADAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C226E1682C25171900FEADAC;
+			remoteInfo = thepackerapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C226E1692C25171900FEADAC /* thepackerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thepackerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C226E16C2C25171900FEADAC /* thepackerappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappApp.swift; sourceTree = "<group>"; };
+		C226E16E2C25171900FEADAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C226E1702C25171A00FEADAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C226E1722C25171A00FEADAC /* thepackerapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = thepackerapp.entitlements; sourceTree = "<group>"; };
+		C226E1742C25171A00FEADAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C226E17A2C25171A00FEADAC /* thepackerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepackerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C226E17E2C25171A00FEADAC /* thepackerappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappTests.swift; sourceTree = "<group>"; };
+		C226E1842C25171A00FEADAC /* thepackerappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepackerappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C226E1882C25171A00FEADAC /* thepackerappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappUITests.swift; sourceTree = "<group>"; };
+		C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C226E1662C25171900FEADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1772C25171A00FEADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1812C25171A00FEADAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C226E1602C25171900FEADAC = {
+			isa = PBXGroup;
+			children = (
+				C226E16B2C25171900FEADAC /* thepackerapp */,
+				C226E17D2C25171A00FEADAC /* thepackerappTests */,
+				C226E1872C25171A00FEADAC /* thepackerappUITests */,
+				C226E16A2C25171900FEADAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C226E16A2C25171900FEADAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C226E1692C25171900FEADAC /* thepackerapp.app */,
+				C226E17A2C25171A00FEADAC /* thepackerappTests.xctest */,
+				C226E1842C25171A00FEADAC /* thepackerappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C226E16B2C25171900FEADAC /* thepackerapp */ = {
+			isa = PBXGroup;
+			children = (
+				C226E16C2C25171900FEADAC /* thepackerappApp.swift */,
+				C226E16E2C25171900FEADAC /* ContentView.swift */,
+				C226E1702C25171A00FEADAC /* Assets.xcassets */,
+				C226E1722C25171A00FEADAC /* thepackerapp.entitlements */,
+				C226E1732C25171A00FEADAC /* Preview Content */,
+			);
+			path = thepackerapp;
+			sourceTree = "<group>";
+		};
+		C226E1732C25171A00FEADAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C226E1742C25171A00FEADAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C226E17D2C25171A00FEADAC /* thepackerappTests */ = {
+			isa = PBXGroup;
+			children = (
+				C226E17E2C25171A00FEADAC /* thepackerappTests.swift */,
+			);
+			path = thepackerappTests;
+			sourceTree = "<group>";
+		};
+		C226E1872C25171A00FEADAC /* thepackerappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C226E1882C25171A00FEADAC /* thepackerappUITests.swift */,
+				C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */,
+			);
+			path = thepackerappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C226E1682C25171900FEADAC /* thepackerapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C226E18E2C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerapp" */;
+			buildPhases = (
+				C226E1652C25171900FEADAC /* Sources */,
+				C226E1662C25171900FEADAC /* Frameworks */,
+				C226E1672C25171900FEADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thepackerapp;
+			productName = thepackerapp;
+			productReference = C226E1692C25171900FEADAC /* thepackerapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C226E1792C25171A00FEADAC /* thepackerappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C226E1912C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerappTests" */;
+			buildPhases = (
+				C226E1762C25171A00FEADAC /* Sources */,
+				C226E1772C25171A00FEADAC /* Frameworks */,
+				C226E1782C25171A00FEADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C226E17C2C25171A00FEADAC /* PBXTargetDependency */,
+			);
+			name = thepackerappTests;
+			productName = thepackerappTests;
+			productReference = C226E17A2C25171A00FEADAC /* thepackerappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C226E1832C25171A00FEADAC /* thepackerappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C226E1942C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerappUITests" */;
+			buildPhases = (
+				C226E1802C25171A00FEADAC /* Sources */,
+				C226E1812C25171A00FEADAC /* Frameworks */,
+				C226E1822C25171A00FEADAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C226E1862C25171A00FEADAC /* PBXTargetDependency */,
+			);
+			name = thepackerappUITests;
+			productName = thepackerappUITests;
+			productReference = C226E1842C25171A00FEADAC /* thepackerappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C226E1612C25171900FEADAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C226E1682C25171900FEADAC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C226E1792C25171A00FEADAC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C226E1682C25171900FEADAC;
+					};
+					C226E1832C25171A00FEADAC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C226E1682C25171900FEADAC;
+					};
+				};
+			};
+			buildConfigurationList = C226E1642C25171900FEADAC /* Build configuration list for PBXProject "thepackerapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C226E1602C25171900FEADAC;
+			productRefGroup = C226E16A2C25171900FEADAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C226E1682C25171900FEADAC /* thepackerapp */,
+				C226E1792C25171A00FEADAC /* thepackerappTests */,
+				C226E1832C25171A00FEADAC /* thepackerappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C226E1672C25171900FEADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226E1752C25171A00FEADAC /* Preview Assets.xcassets in Resources */,
+				C226E1712C25171A00FEADAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1782C25171A00FEADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1822C25171A00FEADAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C226E1652C25171900FEADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226E16F2C25171900FEADAC /* ContentView.swift in Sources */,
+				C226E16D2C25171900FEADAC /* thepackerappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1762C25171A00FEADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226E17F2C25171A00FEADAC /* thepackerappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C226E1802C25171A00FEADAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C226E18B2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift in Sources */,
+				C226E1892C25171A00FEADAC /* thepackerappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C226E17C2C25171A00FEADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C226E1682C25171900FEADAC /* thepackerapp */;
+			targetProxy = C226E17B2C25171A00FEADAC /* PBXContainerItemProxy */;
+		};
+		C226E1862C25171A00FEADAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C226E1682C25171900FEADAC /* thepackerapp */;
+			targetProxy = C226E1852C25171A00FEADAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C226E18C2C25171A00FEADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C226E18D2C25171A00FEADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C226E18F2C25171A00FEADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = thepackerapp/thepackerapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"thepackerapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C226E1902C25171A00FEADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = thepackerapp/thepackerapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"thepackerapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C226E1922C25171A00FEADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thepackerapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thepackerapp";
+			};
+			name = Debug;
+		};
+		C226E1932C25171A00FEADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thepackerapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/thepackerapp";
+			};
+			name = Release;
+		};
+		C226E1952C25171A00FEADAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thepackerapp;
+			};
+			name = Debug;
+		};
+		C226E1962C25171A00FEADAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q4PHKXUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyor.thepackerappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = thepackerapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C226E1642C25171900FEADAC /* Build configuration list for PBXProject "thepackerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C226E18C2C25171A00FEADAC /* Debug */,
+				C226E18D2C25171A00FEADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C226E18E2C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C226E18F2C25171A00FEADAC /* Debug */,
+				C226E1902C25171A00FEADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C226E1912C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C226E1922C25171A00FEADAC /* Debug */,
+				C226E1932C25171A00FEADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C226E1942C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C226E1952C25171A00FEADAC /* Debug */,
+				C226E1962C25171A00FEADAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C226E1612C25171900FEADAC /* Project object */;
+}
