@@ -14,6 +14,11 @@
 		C226E17F2C25171A00FEADAC /* thepackerappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E17E2C25171A00FEADAC /* thepackerappTests.swift */; };
 		C226E1892C25171A00FEADAC /* thepackerappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E1882C25171A00FEADAC /* thepackerappUITests.swift */; };
 		C226E18B2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */; };
+		C226E1982C2523A900FEADAC /* PackingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E1972C2523A900FEADAC /* PackingItem.swift */; };
+		C226E19A2C2523CF00FEADAC /* PackingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E1992C2523CF00FEADAC /* PackingListViewModel.swift */; };
+		C226E19F2C253E8000FEADAC /* PackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E19E2C253E8000FEADAC /* PackingListView.swift */; };
+		C2DDD5862C25C2BA00F144CE /* NetworkTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDD5852C25C2BA00F144CE /* NetworkTestView.swift */; };
+		C2DDD5882C25C3DE00F144CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2DDD5872C25C3DE00F144CE /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		C226E1842C25171A00FEADAC /* thepackerappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thepackerappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C226E1882C25171A00FEADAC /* thepackerappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappUITests.swift; sourceTree = "<group>"; };
 		C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thepackerappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C226E1972C2523A900FEADAC /* PackingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingItem.swift; sourceTree = "<group>"; };
+		C226E1992C2523CF00FEADAC /* PackingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListViewModel.swift; sourceTree = "<group>"; };
+		C226E19E2C253E8000FEADAC /* PackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListView.swift; sourceTree = "<group>"; };
+		C2DDD5852C25C2BA00F144CE /* NetworkTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestView.swift; sourceTree = "<group>"; };
+		C2DDD5872C25C3DE00F144CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 				C226E16A2C25171900FEADAC /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		C226E16A2C25171900FEADAC /* Products */ = {
 			isa = PBXGroup;
@@ -100,6 +111,11 @@
 				C226E1702C25171A00FEADAC /* Assets.xcassets */,
 				C226E1722C25171A00FEADAC /* thepackerapp.entitlements */,
 				C226E1732C25171A00FEADAC /* Preview Content */,
+				C226E1972C2523A900FEADAC /* PackingItem.swift */,
+				C226E1992C2523CF00FEADAC /* PackingListViewModel.swift */,
+				C226E19E2C253E8000FEADAC /* PackingListView.swift */,
+				C2DDD5852C25C2BA00F144CE /* NetworkTestView.swift */,
+				C2DDD5872C25C3DE00F144CE /* Info.plist */,
 			);
 			path = thepackerapp;
 			sourceTree = "<group>";
@@ -235,6 +251,7 @@
 			files = (
 				C226E1752C25171A00FEADAC /* Preview Assets.xcassets in Resources */,
 				C226E1712C25171A00FEADAC /* Assets.xcassets in Resources */,
+				C2DDD5882C25C3DE00F144CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C226E1982C2523A900FEADAC /* PackingItem.swift in Sources */,
+				C2DDD5862C25C2BA00F144CE /* NetworkTestView.swift in Sources */,
 				C226E16F2C25171900FEADAC /* ContentView.swift in Sources */,
+				C226E19F2C253E8000FEADAC /* PackingListView.swift in Sources */,
+				C226E19A2C2523CF00FEADAC /* PackingListViewModel.swift in Sources */,
 				C226E16D2C25171900FEADAC /* thepackerappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +445,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thepackerapp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +484,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thepackerapp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
