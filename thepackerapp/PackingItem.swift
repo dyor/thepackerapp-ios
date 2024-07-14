@@ -9,9 +9,13 @@ import SwiftUI
 
 import Foundation
 
-struct PackingItem: Identifiable, Decodable {
+struct PackingItem: Identifiable, Codable {
     var id: Int
     var name: String
     var quantity: Int
     var isPacked: Bool = false
+}
+
+struct Feed: Codable {
+    let feed: [PackingItem]
 }

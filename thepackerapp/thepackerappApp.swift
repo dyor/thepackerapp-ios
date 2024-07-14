@@ -12,7 +12,6 @@ struct thepackerappApp: App {
     var body: some Scene {
         WindowGroup {
             PackingListView()
-//            TestNetworkView()
         }
     }
 }

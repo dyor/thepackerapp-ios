@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import shared
 
 struct PackingListView: View {
     @ObservedObject var viewModel = PackingListViewModel()
@@ -28,6 +29,15 @@ struct PackingListView: View {
             .onAppear {
                 viewModel.fetchItems()
             }
+            // Footer
+//            Text("Total items: \(viewModel.items.count)")
+//                .padding()
+//                .font(.footnote)
+//                .foregroundColor(.gray)
+            Text(Greeting().greet())
+                .padding()
+                .font(.footnote)
+                .foregroundColor(.gray)
         }
     }
 }

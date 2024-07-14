@@ -18,7 +18,6 @@
 		C226E19A2C2523CF00FEADAC /* PackingListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E1992C2523CF00FEADAC /* PackingListViewModel.swift */; };
 		C226E19F2C253E8000FEADAC /* PackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226E19E2C253E8000FEADAC /* PackingListView.swift */; };
 		C2DDD5862C25C2BA00F144CE /* NetworkTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDD5852C25C2BA00F144CE /* NetworkTestView.swift */; };
-		C2DDD5882C25C3DE00F144CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2DDD5872C25C3DE00F144CE /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +151,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C226E18E2C25171A00FEADAC /* Build configuration list for PBXNativeTarget "thepackerapp" */;
 			buildPhases = (
+				C2BBDA982C3CF70E0009B647 /* ShellScript */,
 				C226E1652C25171900FEADAC /* Sources */,
 				C226E1662C25171900FEADAC /* Frameworks */,
 				C226E1672C25171900FEADAC /* Resources */,
@@ -251,7 +251,6 @@
 			files = (
 				C226E1752C25171A00FEADAC /* Preview Assets.xcassets in Resources */,
 				C226E1712C25171A00FEADAC /* Assets.xcassets in Resources */,
-				C2DDD5882C25C3DE00F144CE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +269,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2BBDA982C3CF70E0009B647 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/..\"\n./gradlew :shared:embedAndSignAppleFrameworkForXcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C226E1652C25171900FEADAC /* Sources */ = {
@@ -444,6 +463,7 @@
 				DEVELOPMENT_TEAM = 56Q4PHKXUA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = thepackerapp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -483,6 +503,7 @@
 				DEVELOPMENT_TEAM = 56Q4PHKXUA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = thepackerapp/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;

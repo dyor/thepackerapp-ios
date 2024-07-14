@@ -18,19 +18,19 @@ class PackingListViewModel: ObservableObject {
         }
 
         URLSession.shared.dataTask(with: url) { data, response, error in
-            if let data = data, error == nil {
-                do {
-                    let decodedResponse = try JSONDecoder().decode([PackingItem].self, from: data)
-                    DispatchQueue.main.async {
-                        self.items = decodedResponse
+                    if let data = data, error == nil {
+                        do {
+                            let decodedResponse = try JSONDecoder().decode(Feed.self, from: data)
+                            DispatchQueue.main.async {
+                                self.items = decodedResponse.feed
+                            }
+                        } catch {
+                            print("Decoding failed: \(error)")
+                        }
+                    } else {
+                        print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
                     }
-                } catch {
-                    print("Decoding failed: \(error)")
-                }
-            } else {
-                print("Fetch failed: \(error?.localizedDescription ?? "Unknown error")")
-            }
-        }.resume()
+                }.resume()
     }
 }
 
