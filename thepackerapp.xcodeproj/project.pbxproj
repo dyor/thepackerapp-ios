@@ -52,6 +52,7 @@
 		C226E1972C2523A900FEADAC /* PackingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingItem.swift; sourceTree = "<group>"; };
 		C226E1992C2523CF00FEADAC /* PackingListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListViewModel.swift; sourceTree = "<group>"; };
 		C226E19E2C253E8000FEADAC /* PackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListView.swift; sourceTree = "<group>"; };
+		C2602AAB2C46D57F003ECE2E /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = shared.framework; sourceTree = "<group>"; };
 		C2DDD5852C25C2BA00F144CE /* NetworkTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestView.swift; sourceTree = "<group>"; };
 		C2DDD5872C25C3DE00F144CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +89,7 @@
 				C226E17D2C25171A00FEADAC /* thepackerappTests */,
 				C226E1872C25171A00FEADAC /* thepackerappUITests */,
 				C226E16A2C25171900FEADAC /* Products */,
+				C2602AAA2C46D57F003ECE2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -142,6 +144,39 @@
 				C226E18A2C25171A00FEADAC /* thepackerappUITestsLaunchTests.swift */,
 			);
 			path = thepackerappUITests;
+			sourceTree = "<group>";
+		};
+		C2602AAA2C46D57F003ECE2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2602AAE2C46D57F003ECE2E /* xcode-frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2602AAC2C46D57F003ECE2E /* iphonesimulator17.5 */ = {
+			isa = PBXGroup;
+			children = (
+				C2602AAB2C46D57F003ECE2E /* shared.framework */,
+			);
+			path = iphonesimulator17.5;
+			sourceTree = "<group>";
+		};
+		C2602AAD2C46D57F003ECE2E /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				C2602AAC2C46D57F003ECE2E /* iphonesimulator17.5 */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		C2602AAE2C46D57F003ECE2E /* xcode-frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2602AAD2C46D57F003ECE2E /* Debug */,
+			);
+			name = "xcode-frameworks";
+			path = "../shared/build/xcode-frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +308,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		C2BBDA982C3CF70E0009B647 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
